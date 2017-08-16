@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--Lectures 66 & 68 & 70 CSS Fonts-->
+<!--Look for web safe fonts fallback if not on system font-family <1,2,3> fallback order
+	Google Fonts
+	Sudo Links :hover, :visited-->
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+		<title>Fonts</title>
+		<style type="text/css">
+			body{
+				margin: 0px;
+				padding: 0px;
+				font-weight: bold;
+			}
+			p {
+				margin: 0px
+				padding: 0px;
+				font-family: "Archivo", Times, Serif;
+				font-style: italic;
+			
+			}
+			a:link {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: blue;
+			}
+
+			a:visited {
+				text-decoration: underline;
+				color: red;
+			}
+
+
+			.right {
+				text-align: right;
+			}
+
+			.center {
+				text-align: center;
+			}
+
+			.justify {
+				text-align: justify;
+			}
+
+			.underlined {
+				text-decoration: underline;
+			}
+
+			.green {
+				background-color: green;
+				border: 5px black solid;
+				border-radius: 10px;
+				width: 500px;
+				height: 400px;
+				margin: 10px;
+				padding: 5px;
+			}
+
+			#margin {
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="green">
+			<h1 class="center">CSS is cool!</h1>
+			<p class="right">Some random stuff, internal style(Foo bar) </p>
+			<p class="justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum <span class="underlined"> And this text is underlined </span></p>
+		</div>
+		<a id="margin" href="http://Google.com" target="_blank">Google New Tab</a>
+		<a id="margin" href="http://Wikipedia.com" >Wikipedia </a>
+	</body>
+</html>
