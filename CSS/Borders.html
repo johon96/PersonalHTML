@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--Lectures 64 CSS Borders-->
+<!-- Can set different borders for each edge in the same convention as margins border-left
+	 Or border-style: <top_style>, <right_style>, <bottom_style>, <left_style>
+	 -->
+<html>
+	<head>
+		<title>Borders</title>
+		<style type="text/css">
+			#green-square {
+				background-color: green;
+			}
+
+			#red-square {
+				background-color: red;
+				border-radius: 10px
+			}
+			#blue-square {
+				background-color: blue;
+				border-radius: 50%;
+				
+			}
+			.square {
+				margin: 10px;
+				width:  100px;
+				height: 100px;
+				float: left;
+				border: 2px black solid;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="red-square" class="square"></div>
+		<div id="blue-square" class="square"></div>
+		<div id="green-square" class="square"></div>
+	</body>
+</html>
